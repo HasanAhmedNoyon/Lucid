@@ -1,0 +1,683 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+
+*{
+   margin : 0; 
+   padding: 0;
+}
+
+header{
+   background-image: url(../img/header_bg.png);
+   height: 100vh;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+   color: white !important;
+   font-size: 16px;
+   font-weight: bold;
+   font-family: 'Source Sans Pro', sans-serif;
+   position: relative;
+   padding : 0px;
+}
+
+.navbar-light .navbar-nav .nav-item {
+   padding : 0px 15px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+   color: #fff;
+
+}
+
+.navbar-light .navbar-nav .nav-link::before{
+ content: '';
+ position: absolute;
+ bottom: -5px; 
+ left: 0; 
+ width: 0%;
+ height: 2px;
+ background-color: #008ed6; 
+ transition: .5s all ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::before{
+   width : 47%
+}
+
+.navbar-light .navbar-nav .nav-link::after{
+ content: '';
+ position: absolute;
+ bottom: -5px; 
+ right: 0; 
+ width: 0%;
+ height: 2px;
+ background-color: #008ed6;
+ transition: .5s all ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::after{
+   width : 47%
+}
+
+.navbar-light .navbar-toggler-icon{
+   background-image: url(../img/humburger.png) !important;
+}
+
+.banner-content{
+   height: 90vh;
+   align-items: center;
+   position: relative;
+}
+
+.banner-content h5{
+ font-size: 16px;
+ color: #008ed6; 
+ text-transform: uppercase;
+ letter-spacing: 2px;
+ margin-bottom: 15px;
+}
+
+.banner-content h1{
+ color : #fff;
+ margin-bottom: 15px;
+
+}
+
+.banner-content p{
+ color: #999999;
+ font-size: 15px;
+ margin-bottom: 50px;
+
+}
+
+.banner-content .btn-download{
+ color: #fff;
+ background-color: #008ed6;
+ padding: 0;
+ padding: 15px 25px;
+ text-transform: uppercase;
+ font-size: 14px;
+ font-weight: 600;
+ letter-spacing: 1.5px;
+ border-radius: 5px;
+}
+
+.banner-content .btn-download:hover{
+   color: #fff;
+   background-color: transparent;
+   border: 1px solid rgb(196, 196, 196);
+ 
+}
+
+.banner-content .btn-features{
+   color: #fff;
+   background-color: transparent;
+   padding: 0;
+   padding: 15px 25px;
+   text-transform: uppercase;
+   font-size: 14px;
+   font-weight: 600;
+   letter-spacing: 1.5px;
+   border: 1px solid rgb(196, 196, 196);
+   border-radius: 5px;
+   margin-left: 30px;
+}
+
+.banner-content .btn-features:hover{
+   color: #fff;
+   background-color: #008ed6;
+   border: transparent;
+}
+
+.phone{
+   position: absolute;
+   bottom: 0%;
+   left: 55%;
+   width: 50%;
+}
+
+/*Features Section Start*/
+.feature_section .heading h1{
+   color: black;
+   font-size: 35px;
+   
+}
+.feature_section .heading h5{
+   color: #008ed6;
+   font-size: 16px;
+   text-transform: uppercase;
+   
+}
+
+.feature_section .heading span{
+   position: relative;
+   display: inline-block;
+   height: 2px;
+   width: 70px;
+}
+.feature_section .heading span::before{
+   content: '';
+   position: absolute;
+   left: 0;
+   top: 0;
+   height: 100%;
+   width: 0%;
+   background-color: #008ed6;
+   transition: .5s all ease-in-out;
+}
+
+.feature_section .heading span::after{
+   content: '';
+   position: absolute;
+   right: 0;
+   top: 0;
+   height: 100%;
+   width: 0%;
+   background-color: #008ed6;
+   transition: .5s all ease-in-out;
+}
+
+.feature_section:hover .heading span::before{
+   width: 45%;
+
+}
+
+.feature_section:hover .heading span::after{
+   width: 45%;
+
+}
+
+.icon_box{
+   text-align: center;
+   height: 60px;
+   width : 60px;
+   border-radius: 50%;
+   border: 1px solid #c1bfbf;
+   line-height: 60px;
+   margin: auto;
+
+}
+
+.icon_box i{
+   color: #008ed6;
+   font-size: 20px;
+   font-weight: 600;
+}
+
+.features_content h2{
+   color: #1a1a1a;
+   font-family: 'Source Sans Pro', sans-serif;
+ 
+}
+
+.features_content p{
+   color: #999999;
+   font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*About One Section Start*/
+.about_one_section img{
+   float: right;
+   padding-right: 20px;
+   
+}
+
+.about_part_one_details{
+   padding-top: 50px;
+}
+
+.about_part_one_details h6{
+   font-size: 14px;
+   color: #008ed6; 
+   text-transform: uppercase;
+   font-weight: 700;
+}
+
+.about_part_one_details span{
+   display: inline-block;
+   width: 70px;
+   height: 2px;
+   position: relative;
+   margin-top: 10px;
+   margin-bottom: 10px;
+
+}
+
+.about_part_one_details span::before{
+   content: '';
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 0%;
+   height: 100%;
+   background-color: #008ed6;
+   transition: .5s all ease-in-out;
+}
+
+.about_part_one_details span::after{
+   content: '';
+   position: absolute;
+   right: 0;
+   top: 0;
+   width: 0%;
+   height: 100%;
+   background-color: #008ed6;
+   transition: .5s all ease-in-out;
+}
+
+.about_one_section:hover
+.about_part_one_details span::before{
+   width: 45%;
+}
+
+.about_one_section:hover
+.about_part_one_details span::after{
+   width: 45%;
+}
+
+.about_part_one_details p{
+   color: #999999;
+   font-family: 'Source Sans Pro', sans-serif;
+}
+
+.about_part_one_details ul{
+   list-style: none;
+   padding-top: 10px;
+
+}
+
+.about_part_one_details ul li{
+   margin-top: 2px;
+   margin-bottom: 2px;
+   margin-left: -30px;
+   color: #008ed6;
+}
+
+.about_part_one_details ul li img{
+   float: left;
+}
+
+.about_part_one_details ul li h6{
+   display: inline-block;
+   color: #1b1b1b  !important;
+   font-weight: 500;
+   text-transform: capitalize;
+   margin-left: 3px;
+}
+
+/*About part Two Section*/
+.about_two_section{
+   background-image: url('../img/About-Part-2-bg.png');
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: auto;
+   margin: auto;
+}
+
+.about_two_section:hover
+.about_part_one_details span::before{
+   width: 45%;
+}
+
+.about_two_section:hover
+.about_part_one_details span::after{
+   width: 45%;
+}
+
+/*Testimonial Start*/
+.testimonial{
+   background-image: url(../img/testimonial-bg.png);
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.testimonial .heading h6{
+   color: #008ed6;
+   text-transform: uppercase;
+   font-family: 'Source Sans Pro', sans-serif;   
+}
+
+.testimonial .heading h1{
+   color: #fff;
+   font-family: 'Source Sans Pro', sans-serif;
+}
+
+.testimonial .heading span{
+   position: relative;
+   display: inline-block;
+   height: 2px;
+   width: 70px;
+}
+
+.testimonial .heading span::before{
+   content: '';
+   position: absolute;
+   left: 0;
+   top: 0;
+   height: 100%;
+   width: 0%;
+   background-color: #008ed6;
+   transition: .5s all ease-in-out;
+}
+
+.testimonial .heading span::after{
+   content: '';
+   position: absolute;
+   right: 0;
+   top: 0;
+   height: 100%;
+   width: 0%;
+   background-color: #008ed6;
+   transition: .5s all ease-in-out;
+}
+
+.testimonial:hover .heading span::before{
+   width: 45%;
+}
+
+.testimonial:hover .heading span::after{
+   width: 45%;
+}
+
+.client-testimonial{
+   padding-bottom: 80px;
+}
+
+.client-testimonial p{
+   color: #fff;
+   font-style: italic;
+}
+
+.client-testimonial .client{
+   width: 32%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.client-des h2{
+   color: #fff;
+   font-size: 12px;
+   font-weight: 300;
+}
+
+.client-des h3{
+   color: #fff;
+   font-size: 12px;
+   font-weight: 600;
+}
+
+.button-section{
+   background-color: #15141A;
+   padding: 70px 0px;
+   display: flex;
+   justify-content: center; 
+   align-items: center;
+}
+
+.button-section p {
+   color: #fff;
+   font-size: 30px;
+   font-weight: 300;
+}
+
+.button-section p span{
+   font-weight: 600;
+}
+
+.button-section .button{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.button-section .btn-features{
+   padding: 10px 15px;
+   border: 1px solid white;
+   color: #fff;
+   text-transform: uppercase;
+   border-radius: 0px;
+   margin-right: 10px;
+}
+
+.button-section .btn-download {
+   color: #fff;
+   background-color: #008ed6;
+   padding: 0;
+   padding: 10px 15px;
+   text-transform: uppercase;
+   border-radius: 0px;   
+}
+
+.button-section .btn-features:hover{
+   color: #fff;
+   background-color: #008ed6;
+   border: none;
+   margin-right: 10px;
+}
+
+.button-section .btn-download:hover{
+   color: #fff;
+   background-color: transparent;
+   border: 1px solid white;
+}
+
+/*Pricing Section Start*/
+.pricing-section .heading h1{
+   color: black;
+   font-size: 35px;
+}
+
+.pricing-section .heading h5{
+   color: #008ed6;
+   font-size: 16px;
+   text-transform: uppercase;   
+}
+
+.pricing-section .heading span{
+   position: relative;
+   display: inline-block;
+   height: 2px;
+   width: 70px;
+}
+
+.pricing-section .heading span::before{
+   content: '';
+   position: absolute;
+   left: 0;
+   top: 0;
+   height: 100%;
+   width: 0%;
+   background-color: #008ed6;
+   transition: .5s all ease-in-out;
+}
+
+.pricing-section .heading span::after{
+   content: '';
+   position: absolute;
+   right: 0;
+   top: 0;
+   height: 100%;
+   width: 0%;
+   background-color: #008ed6;
+   transition: .5s all ease-in-out;
+}
+
+.pricing-section:hover .heading span::before{
+   width: 45%;
+}
+
+.pricing-section:hover .heading span::after{
+   width: 45%;
+}
+
+.pricing-box .card-header{
+   font-size: 24px;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+.pricing-box .card-title sup{
+   font-weight: 800;
+   top: -25px;
+   font-size: 20px;
+   color: black;
+}
+
+.pricing-box .card-title span{
+   color: black;
+   font-size: 60px;
+}
+
+.pricing-box .card-body p{
+   margin: 0px;
+   margin-top: -15px;
+   color: #999999;
+}
+
+.pricing-box .card-footer p{
+   color: #999999;
+   font-size: 18px;
+   font-family: 'Source Sans Pro', sans-serif;
+   padding: 13px;
+}
+
+.pricing-box .card-footer .order-btn{
+      color: #008ed6;
+      font-size: 14px;
+      font-weight: 700;
+      border: 1px solid #99999973;
+      padding: 10px 30px;
+      margin-bottom: 15px;
+}
+
+.pricing-box:hover .card-header{
+   color: #008ed6;
+}
+
+.pricing-box:hover .card-body{
+   background-color: #008ED6;
+}
+
+.pricing-box:hover .card-body sup{
+   color: #fff;
+}
+
+.pricing-box:hover .card-body span{
+   color: #fff;
+}
+
+.pricing-box:hover .card-body p{
+   color: #fff;
+}
+
+.pricing-box:hover .order-btn{
+   background-color: #008ED6;
+   color: #fff;
+}
+
+/*Contact us Section Start*/
+.contact-section{
+   min-height: 600px;
+   background-image: url('/img/contactus_bg.png');
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.form{
+   position: relative;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.form-section{
+   background-color: #15141a;
+   padding: 30px 50px !important;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+.contact-details i{
+   color: #008ed6;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.contact-details p{
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size: 18px;
+   margin: 0px;
+   color: #999999;
+}
+
+.form-section input{
+   background-color: transparent;
+   border: 1px solid #9999994f;
+   margin-bottom: 15px;
+}
+
+.form-section ::placeholder{
+   color: #9999994f;
+   font-size: 12px;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+
+.form-section textarea{
+   background-color: transparent;
+   border: 1px solid #9999994f;
+
+}
+
+.form-control:focus {
+   color: white;
+   background-color: transparent;
+   border: 1px solid #9999994f;
+   box-shadow: none;
+}
+
+.submit-button{
+   margin-top: 10px; 
+   float: right;
+   padding: 10px 15px !important;
+   color: #fff !important;
+   background-color: #008ed6 !important;
+}
+
+.submit-button:hover{
+   color: white !important;
+   background-color: transparent !important;
+   border: 1px solid #9999994f !important;
+}
+
+.map{
+   padding-top: 25px;
+   background-image: url(../img/map_bg.png);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 250px;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+   margin-top: 80px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+   background: #999999;
+   height: 15px;
+   width: 15px;
+   border-radius: 50%;
+   align-items: center;
+
+}

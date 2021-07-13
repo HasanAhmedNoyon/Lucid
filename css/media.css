@@ -1,0 +1,380 @@
+/*Extra Small Devices*/ 
+/*xsm (320-480)*/ 
+
+@media only screen and (min-width: 320px) and (max-width: 480px)  {
+
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        background-color: transparent;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .banner-content h1{
+        text-align: center;
+      
+    }
+    .banner-content p{
+        text-align: center;
+      
+    }
+    .banner-content h5{
+        text-align: center;
+        font-size: 12px;
+    }
+    .button{
+        padding: 10px;
+    }
+    .banner-content .btn-download{
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-top:  -20px;
+        margin-bottom: 15px;
+    }
+    .banner-content .btn-features{
+        padding: 15px;
+        display: flex;
+        margin: 0px;
+        justify-content: center;
+        align-content: center;
+    }
+    .phone{
+        display: none;
+    }
+    
+    .feature_section .heading h1{
+        font-size: 30px;
+    }
+    
+    .feature_section .features-item{
+        margin-top: -25px;
+        padding: 5px 5px;
+    }
+    
+    .about-phone img{
+        padding: 0px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .button-section .content p{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .button-section .button .btn-download{
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+
+
+    .button-section .button .btn-features{
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+    
+    .map{
+        padding-top: 400px
+    }
+
+    .carousel{
+        text-align: center;
+    }
+    .client-des{
+        text-align: left;
+    }
+
+    .client-testimonial .client .client-img{
+        margin-right: 10px;
+    }
+
+    .client-testimonial .client{
+        width: auto;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+    
+    /*Small Devices*/ 
+    /*sm (481-767)*/ 
+    
+    @media only screen and (min-width: 481px) and (max-width: 767px)  {
+    .navbar-collapse {
+            flex-basis: 100%;
+            flex-grow: 1;
+            align-items: center;
+            background-color: transparent;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+    .banner-content h5{
+        font-size: 14px;
+        text-align: center;
+    }
+    .banner-content h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    .banner-content p{
+        text-align: center;
+    }
+    .banner-content .phone{
+        display: none;
+    }
+    .banner-content .button{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .feature_section .features-item{
+        margin-top: -25px;
+        padding: 5px 5px;
+    }
+    .about-phone img{
+        padding: 0px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .button-section .content p{
+        font-size: 22px;
+        text-align: center;
+    }
+
+    
+    .map{
+        padding-top: 400px
+    }
+
+    .client-testimonial .client .client-img{
+        margin-right: 10px;
+    }
+
+    .client-testimonial .client{
+        width: 45%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    
+
+    
+    }
+    
+    
+    /*Medium Devices*/ 
+    /*md (768-991)*/ 
+    
+    @media only screen and (min-width: 768px) and (max-width: 991px)  {
+        .navbar-collapse {
+            flex-basis: 100%;
+            flex-grow: 1;
+            align-items: center;
+            background-color: transparent;
+            margin-top: 10px;
+            text-align: center;
+        }
+        .banner-content h5{
+            font-size: 18px;
+        }
+
+        .banner-content h1{
+            font-size: 30px;
+        }
+
+        .banner-content .button{
+            display: flex;
+            align-content: flex-end;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+
+        .banner-content .button .btn-download{
+            margin-top: -25px;
+        }
+
+        .banner-content .button .btn-features{
+            margin-left: 0px;
+            margin-top: 10px;
+        }
+
+        .banner-content .phone{
+            width: 45%;
+        }
+
+        .features-item i{
+            font-size: 18px;
+        }
+
+        
+        .features-item .features_content h2{
+            font-size: 22px;
+        }
+        .features-item .features_content p{
+            font-size: 14px;
+        }
+
+        .about_one_section .about_part_one_details{
+            padding-top: 20px;
+        }
+        .about_one_section 
+        .about_part_one_details h1{
+           font-size: 29px;
+        }
+        .about_one_section 
+        .about_part_one_details p{
+           margin-top: -5px;
+        }
+        .about_one_section 
+        .about_part_one_details ul{
+           margin-top: -10px;
+        }
+
+        .about_two_section h1{
+            font-size: 30px;
+        }
+
+        .about_two_section p{
+            font-size: 16px;
+            padding-bottom: 30px;
+        }
+        .about-phone{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .button-section .content p{
+            font-size: 20px;
+        }
+
+        .button-section .btn-features{
+            padding: 10px 15px;
+            font-size: 12px;
+        }
+        .button-section .btn-download{
+            padding: 10px 15px;
+            font-size: 12px;
+        }
+
+
+        .client-testimonial .carousel{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            align-content: center;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+
+        .client-testimonial .carousel p{
+            font-size:15px;
+            
+        }
+
+        .client-testimonial .client{
+            width: 65%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+
+       
+
+
+
+
+
+
+       
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+    
+    
+    /*large Devices*/ 
+    /*lg (992-1199)*/ 
+    
+    @media only screen and (min-width: 992px) and (max-width: 1199px)  {
+        .banner-content .phone{
+            width: 40%;
+        }
+
+        .button-section .content p{
+            font-size: 25px;
+        }
+
+       
+        .client-testimonial .client{
+            width: 48%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+    
+    
+    /*Extra large Devices*/ 
+    /*xlg (1200-1400)*/ 
+    
+    @media only screen and (min-width: 1200px) and (max-width: 1400px)  {
+        .client-testimonial .client .client-img{
+            margin-right: 15px;
+        }
+
+        .client-testimonial .client{
+            width: 42%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    
+    
+    
+    
+    
+    
+    }
